@@ -9,5 +9,4 @@ def health():
     return jsonify({
         "status": "DONEEEE , 18 ---- Feb",
         "instance": hostname
-        "ok beii"
     }), 200
