@@ -7,6 +7,6 @@ health_bp = Blueprint("health", __name__)
 def health():
     hostname = socket.gethostname()
     return jsonify({
-        "status": "DONEEEE , 19 Feb",
+        "status": "DONEEEE , 20 Feb 11:35",
         "instance": hostname
     }), 200
